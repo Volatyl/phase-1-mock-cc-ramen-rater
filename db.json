@@ -39,6 +39,14 @@
       "image": "./assets/ramen/kojiro.jpg",
       "rating": 6,
       "comment": "Perfect for a cold night."
+    },
+    {
+      "name": "Chipo",
+      "restaurant": "Kwangu",
+      "image": "https://thecozycook.com/wp-content/uploads/2020/02/Copycat-McDonalds-French-Fries-.jpg",
+      "rating": "7",
+      "comment": "Just a comment.",
+      "id": 6
     }
   ]
 }
