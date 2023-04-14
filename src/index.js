@@ -11,10 +11,13 @@ window.addEventListener("DOMContentLoaded", () => {
 
 //function to display images
 function displayImages(data) {
+    displayDetails(data[0])
   data.forEach((image) => {
     const imgs = document.createElement("img");
     imgs.src = image.image;
     imgDiv.appendChild(imgs);
+    // console.log(image);
+    // displayDetails(image);
     imgs.addEventListener("click", () => {
       displayDetails(image);
     });
